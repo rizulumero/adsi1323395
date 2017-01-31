@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+Buenas tardes ADSI 1323395, ${1:esto} es un ${2:snippet}.
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>saludo</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

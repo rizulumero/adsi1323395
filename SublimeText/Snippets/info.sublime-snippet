@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+Mi Nombres es: ${1:xyz}
+
+Mi Correo Electrónico es: ${2:xyz@xyz.com}
+
+Mi Teléfono es: ${3:8770011}
+
+Mi Dirección es: ${4:Calle 11}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>info</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
