@@ -1,0 +1,14 @@
+body {
+	background-color: #406ca4;
+	font-family: Arial;
+	color: #fff;
+}
+h1 {
+	text-align: center;
+}
+hr {
+	border: 4px solid #fff;
+}
+p {
+	text-align: justify;
+}
