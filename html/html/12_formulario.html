@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <meta charset="utf-8">
+  <head>
+    <title>Formulario/Elementos de Formulario</title>
+  </head>
+  <body>
+    <h1>Formulario/Elementos de Formulario</h1>
+    <hr>
+    <form action="" method="post">
+      <fieldset>
+        <legend>
+          <h4>Datos Personales</h4>
+        </legend>
+        <label>Descripción:
+          <textarea rows="10" cols="40"></textarea>
+        </label><br><br>
+        <label>Ciudad de Nacimiento
+          <select>
+            <option>Manizales</option>
+            <option>Pereira</option>
+            <option>Armenia</option>
+            <option>Barranquilla</option>
+            <option>Medellin</option>
+          </select>
+        </label><br><br>
+        <label>Deporte Favorito
+          <select multiple>
+            <option>Fútbol</option>
+            <option>Baloncesto</option>
+            <option>Tenis</option>
+            <option>Natación</option>
+            <option>Atletismo</option>
+            <option selected>Ciclismo</option>
+          </select>
+        </label><br><br>
+        <label>Nombre Completo
+          <input type="text">
+        </label><br><br>
+        <label>Nombre de Amor Platónico
+          <input type="password">
+        </label><br><br>
+        <p>Lenguajes de Programación</p>
+        <label>
+          <input type="checkbox">Javascript
+        </label><br>
+        <label>
+          <input type="checkbox">PHP
+        </label><br>
+        <label>
+          <input type="checkbox">C Sharp
+        </label><br>
+        <label>
+          <input type="checkbox">Python
+        </label><br>
+        <label>
+          <input type="checkbox">Ruby
+        </label><br><br>
+        <p>País de Nacimiento</p>
+        <label>
+          <input type="radio" name="pais" checked>Colombia
+        </label><br>
+        <label>
+          <input type="radio" name="pais">Brasil
+        </label><br>
+        <label>
+          <input type="radio" name="pais">Bolivia
+        </label><br>
+        <label>
+          <input type="radio" name="pais">Ecuador
+        </label><br><br>
+        <label>Subir Foto
+          <input type="file" accept="image/*">
+        </label><br><br>
+        <label>Campo Oculto
+          <input type="hidden" value="ADSI1323395">
+        </label><br><br>
+        <label>Boton
+          <input type="button" value="Esto es un Boton">
+        </label><br><br>
+        <label>Solo Lectura
+          <input type="text" value="jaja no me puede modificar" readonly>
+        </label><br><br>
+        <label>Inactivo
+          <input type="text" value="Nooooooo" disabled>
+        </label><br><br>
+        <label>Otros Atributos
+          <input type="text" maxlength="5" size="5">
+        </label><br><br>
+        <label>Botones de Formulario
+          <input type="submit" value="Enviar Formulario">
+          <input type="reset" value="Limpiar Formulario">
+        </label>
+      </fieldset>
+    </form>
+  </body>
+</html>

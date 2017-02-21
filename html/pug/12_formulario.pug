@@ -1,0 +1,126 @@
+doctype html
+html(lang='es')
+	meta(charset='utf-8')
+	head
+		title Formulario/Elementos de Formulario
+	body
+		h1 Formulario/Elementos de Formulario
+		hr
+		//- Formulario
+		form(action='', method='post')
+			//- Conjunto de Campos
+			fieldset
+				//- Leyenda
+				legend
+					h4 Datos Personales
+				//- Etiqueta Campo
+				label Descripción:
+					//- Área Texto
+					textarea(rows='10', cols='40')
+				br
+				br
+				label Ciudad de Nacimiento
+					//- Lista Desplegable (Selección Única) 
+					select
+						option Manizales
+						option Pereira
+						option Armenia
+						option Barranquilla
+						option Medellin
+				br
+				br
+				label Deporte Favorito
+					//- Lista Desplegable (Selección Multiple)
+					select(multiple)
+						option Fútbol
+						option Baloncesto
+						option Tenis
+						option Natación
+						option Atletismo
+						option(selected) Ciclismo
+				br
+				br
+				label Nombre Completo
+					//- Campo de Entrada - Tipo texto
+					input(type='text')
+				br
+				br
+				label Nombre de Amor Platónico
+					//- Campo de Entrada - Tipo Contraseña
+					input(type='password')
+				br
+				br
+				p Lenguajes de Programación
+				//- Campo de Entrada - Lista de Chequeo
+				label
+					input(type='checkbox')
+					| Javascript
+				br
+				label
+					input(type='checkbox')
+					| PHP
+				br
+				label
+					input(type='checkbox')
+					| C Sharp
+				br
+				label
+					input(type='checkbox')
+					| Python
+				br
+				label
+					input(type='checkbox')
+					| Ruby
+				br
+				br
+				p País de Nacimiento
+				label
+					//- Campo de Entrada - Opción Única
+					input(type='radio', name="pais", checked)
+					| Colombia
+				br
+				label
+					input(type='radio', name="pais")
+					| Brasil
+				br
+				label
+					input(type='radio', name="pais")
+					| Bolivia
+				br
+				label
+					input(type='radio', name="pais")
+					| Ecuador
+				br
+				br
+				label Subir Foto
+					//- Campo de Entrada - Seleccionar un Archivo
+					input(type='file', accept='image/*')
+				br
+				br
+				label Campo Oculto
+					//- Campo de Entrada Ocualta
+					input(type='hidden', value='ADSI1323395')
+				br
+				br
+				label Boton
+					//- Campo de Entrada - Boton
+					input(type='button', value='Esto es un Boton')
+				br
+				br
+				label Solo Lectura
+					//- Atributo de solo lectura
+					input(type='text', value='jaja no me puede modificar', readonly)
+				br
+				br
+				label Inactivo
+					//- Atributo Inactivo
+					input(type='text', value='Nooooooo', disabled)
+				br
+				br
+				label Otros Atributos
+					input(type='text', maxlength='5', size='5')
+				br
+				br
+				label Botones de Formulario
+					input(type='submit', value='Enviar Formulario')
+					input(type='reset', value='Limpiar Formulario')
