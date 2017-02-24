@@ -1,0 +1,77 @@
+doctype html
+html(lang="es")
+	head
+		meta(charset="utf-8")
+		title Canvas (Gráficos 2D)
+	body
+		h1 Canvas (Gráficos 2D)
+		hr
+		//- - - Cuadrado - - -
+		h2 Cuadrado
+		canvas#cuadrado
+		//- - - Rectangulo - - -
+		h2 Rectángulo
+		canvas#rectangulo
+		//- - - Triangulo - - -
+		h2 Triángulo
+		canvas#triangulo
+		//- - - Circulo - - -
+		h2 Círculo
+		canvas#circulo
+		//- - - Corazon - - -
+		h2 Corazón
+		canvas#corazon
+		//- - - Texto - - -
+		h2 Texto
+		canvas#texto
+
+		script.
+			//- Cuadrado - - - - - - - - - - - - - - - - - - - -
+			var cuadrado    = document.getElementById('cuadrado');
+			var ctxcuadrado = cuadrado.getContext('2d');
+			ctxcuadrado.fillStyle = '#f00';
+			ctxcuadrado.fillRect(0,0,100,100);
+			//- Rectangulo - - - - - - - - - - - - - - - - - - -
+			var rectangulo    = document.getElementById('rectangulo');
+			var ctxrectangulo = rectangulo.getContext('2d');
+			ctxrectangulo.fillStyle = '#f00';
+			ctxrectangulo.fillRect(0,0,350,100);
+			//- Triangulo - - - - - - - - - - - - - - - - - - -
+			var triangulo    = document.getElementById('triangulo');
+			var ctxtriangulo = triangulo.getContext('2d');
+			ctxtriangulo.fillStyle = '#f00';
+			ctxtriangulo.beginPath();
+			ctxtriangulo.moveTo(10, 110);
+			ctxtriangulo.lineTo(110, 10);
+			ctxtriangulo.lineTo(210, 110);
+			ctxtriangulo.fill();
+			//- Circulo - - - - - - - - - - - - - - - - - - -
+			var circulo    = document.getElementById('circulo');
+			var ctxcirculo = circulo.getContext('2d');
+			ctxcirculo.fillStyle = '#f00';
+			ctxcirculo.beginPath();
+			ctxcirculo.arc(60, 60, 60, 0, Math.PI*2, true);
+			ctxcirculo.closePath();
+			ctxcirculo.fill();
+			//- Corazon - - - - - - - - - - - - - - - - - - -
+			var corazon    = document.getElementById('corazon');
+			var ctxcorazon = corazon.getContext('2d');
+			ctxcorazon.fillStyle = '#f00';
+			ctxcorazon.beginPath();
+			ctxcorazon.moveTo(75,40);
+			ctxcorazon.bezierCurveTo(75,37,70,25,50,25);
+			ctxcorazon.bezierCurveTo(20,25,20,62.5,20,62.5);
+			ctxcorazon.bezierCurveTo(20,80,40,102,75,120);
+			ctxcorazon.bezierCurveTo(110,102,130,80,130,62.5);
+			ctxcorazon.bezierCurveTo(130,62.5,130,25,100,25);
+			ctxcorazon.bezierCurveTo(85,25,75,37,75,40);
+			ctxcorazon.fill();
+			//- Texto - - - - - - - - - - - - - - - - - - -
+			var texto    = document.getElementById('texto');
+			var ctxtexto = texto.getContext('2d');
+			ctxtexto.fillStyle = '#f00';
+			ctxtexto.font = "60px Tahoma";
+			ctxtexto.fillText("ADSI", 20, 80);
+			ctxtexto.rect(0, 0 , 200, 120);
+			ctxtexto.stroke();
+
