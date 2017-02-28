@@ -1,0 +1,32 @@
+doctype html
+html(lang="es")
+	head
+		meta(charset="utf-8")
+		title Nuevos Atributos de Campos de Entrada
+	body
+		h1 Nuevos Atributos de Campos de Entrada
+		hr
+		form(action="" method="post")
+			//- autocomplete - autofocus
+			label(for="nombre") Nombre Completo:
+				input(type="text" id="nombre" autocomplete="on" autofocus)
+			br
+			//- Min - Max - Step 
+			label(for="edad") Edad:
+				input(type="number" id="edad" min="5" max="100" step="5")
+			br
+			//- Placeholder - Required
+			label(for="correo") Correo Electrónico:
+				input(type="email" id="correo" name="correo" placeholder="Ingrese su Correo Electrónico" required)
+			br
+			//- Multiple 
+			label(for="deportes") Deportes:
+				select(id="deportes" name="deportes" multiple required)
+					option(value="1") Fútbol
+					option(value="2") Baloncesto
+					option(value="3") Tenis
+					option(value="4") Natación
+
+			input(type="submit" value="Enviar")
+			//- FormMethod 
+			input(type="submit" value="Enviar GET" formmethod="get")

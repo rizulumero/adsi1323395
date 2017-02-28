@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Nuevos Atributos de Campos de Entrada</title>
+  </head>
+  <body>
+    <h1>Nuevos Atributos de Campos de Entrada</h1>
+    <hr>
+    <form action="" method="post">
+      <label for="nombre">Nombre Completo:
+        <input type="text" id="nombre" autocomplete="on" autofocus>
+      </label><br>
+      <label for="edad">Edad:
+        <input type="number" id="edad" min="5" max="100" step="5">
+      </label><br>
+      <label for="correo">Correo Electrónico:
+        <input type="email" id="correo" name="correo" placeholder="Ingrese su Correo Electrónico" required>
+      </label><br>
+      <label for="deportes">Deportes:
+        <select id="deportes" name="deportes" multiple required>
+          <option value="1">Fútbol</option>
+          <option value="2">Baloncesto</option>
+          <option value="3">Tenis</option>
+          <option value="4">Natación</option>
+        </select>
+      </label>
+      <input type="submit" value="Enviar">
+      <input type="submit" value="Enviar GET" formmethod="get">
+    </form>
+  </body>
+</html>

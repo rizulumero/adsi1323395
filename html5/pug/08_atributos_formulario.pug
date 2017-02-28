@@ -1,0 +1,17 @@
+doctype html
+html(lang="es")
+	head
+		meta(charset="utf-8")
+		title Nuevos Atributos de Formulario
+	body
+		h1 Nuevo Atributos de Formulario
+		hr
+		//- Atributos de Formulario
+		form(method="post" action="" autocomplete="off" novalidate)
+			label(for="nombre") Nombre:
+				input(type="text" id="nombre" required)
+			br
+			label(for="correo") Correo Electrónico:
+				input(type="email" id="correo" required)
+			br
+			input(type="submit" value="Enviar")

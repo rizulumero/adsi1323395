@@ -1,0 +1,27 @@
+doctype html
+html(lang="es")
+	head
+		meta(charset="utf-8")
+		title Nuevos Elementos de Formulario
+	body
+		h1 Nuevos Elementos de Formulario
+		hr
+
+		//- Lista de Datos
+		label(for="lista") Lenguajes de Programación:
+			input(list="lenguajes", id="lista")
+			datalist(id="lenguajes")
+				option(value="Python") Python
+				option(value="Ruby") Ruby
+				option(value="Javascript") Javascript
+				option(value="C Sharp") C Sharp
+				option(value="Java") Java
+		br
+		//- Generador de Llaves
+		label(for="generador") Generador de Llaves:
+			keygen(id="generador")
+		br
+		//- Salida 
+		label(for="rango") Salida:
+			input(type="range", id="rango", oninput="salida.value=this.value")
+		output(id="salida") 

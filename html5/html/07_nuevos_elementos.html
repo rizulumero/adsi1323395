@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Nuevos Elementos de Formulario</title>
+  </head>
+  <body>
+    <h1>Nuevos Elementos de Formulario</h1>
+    <hr>
+    <label for="lista">Lenguajes de Programación:
+      <input list="lenguajes" id="lista">
+      <datalist id="lenguajes">
+        <option value="Python">Python</option>
+        <option value="Ruby">Ruby</option>
+        <option value="Javascript">Javascript</option>
+        <option value="C Sharp">C Sharp</option>
+        <option value="Java">Java</option>
+      </datalist>
+    </label><br>
+    <label for="generador">Generador de Llaves:
+      <keygen id="generador">
+    </label><br>
+    <label for="rango">Salida:
+      <input type="range" id="rango" oninput="salida.value=this.value">
+    </label>
+    <output id="salida"> </output>
+  </body>
+</html>
