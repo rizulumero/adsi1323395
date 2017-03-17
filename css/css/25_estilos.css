@@ -1,0 +1,21 @@
+body {
+  background-color: #a4d231;
+}
+
+body div {
+  display: inline-block;
+  height: 300px;
+  width: 32.5%;
+}
+
+body div.fondo1 {
+  background-color: #627f1e;
+}
+
+body div.fondo2 {
+  background-color: #82ac29;
+}
+
+body div.fondo3 {
+  background-color: #bffd40;
+}

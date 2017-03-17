@@ -1,0 +1,36 @@
+/* Selector Universal */
+* {
+  color: #555;
+  font: 18px Arial;
+}
+
+/* Selector de Tipo Etiqueta */
+h1 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* Descendente */
+ul li {
+  background-color: #5faa96;
+  color: #8dfde0;
+  margin-bottom: 2px;
+  padding: 10px;
+}
+
+/* Identificador */
+#selectores {
+  list-style: none;
+  margin: 20px auto;
+  width: 200px;
+}
+
+/* Clase */
+.activa {
+  background-color: #3f7164;
+}
+
+/* Combinado */
+ul#selectores li.activa {
+  color: #fff;
+}

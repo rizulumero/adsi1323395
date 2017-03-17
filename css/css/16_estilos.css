@@ -1,0 +1,23 @@
+section.escudo {
+  background: url(../imgs/escudo-colombia.png) no-repeat center center;
+  height: 200px;
+  margin: 20px auto;
+  width: 400px;
+}
+
+section.escudo div {
+  height: 60px;
+}
+
+section.escudo div.amarillo {
+  background-color: rgba(255, 255, 0, 0.5);
+  height: 80px;
+}
+
+section.escudo div.azul {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+section.escudo div.rojo {
+  background-color: rgba(255, 0, 0, 0.5);
+}

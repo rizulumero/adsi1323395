@@ -1,0 +1,23 @@
+div {
+  border-width: 12px;
+  border-style: solid;
+  height: 200px;
+  margin: 10px auto;
+  width: 300px;
+}
+
+div.caja1 {
+  border-top-color: #a00;
+  border-right-color: #0a0;
+  border-bottom-color: #00a;
+  border-left-color: #0aa;
+  border-color: #a00 #0a0 #00a #0aa;
+}
+
+div.caja2 {
+  border-color: #a0a #aa0;
+}
+
+div.caja3 {
+  border-color: #99c12c;
+}

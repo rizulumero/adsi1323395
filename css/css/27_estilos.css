@@ -1,0 +1,37 @@
+body {
+  background-color: #666;
+}
+
+body h1 {
+  color: #fff;
+}
+
+body div {
+  background-color: #ffe756;
+  background-image: url("../imgs/imagen.png");
+  height: 400px;
+  margin: 10px auto;
+  width: 800px;
+}
+
+body div.fondo1 {
+  background-repeat: repeat;
+}
+
+body div.fondo2 {
+  background-repeat: no-repeat;
+}
+
+body div.fondo3 {
+  background-repeat: repeat-x;
+}
+
+body div.fondo4 {
+  background-repeat: repeat-y;
+}
+
+body div h2 {
+  background-color: #333;
+  color: #ffe756;
+  padding: 10px;
+}

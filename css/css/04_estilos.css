@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* Glosario Básico */
+/* Regla CSS */
+h1 {
+  color: #900;
+  text-align: center;
+}
+
+/* Recla CSS */
+hr {
+  border-bottom: 10px solid #900;
+}
+
+/* Otra Regla CSS */
+p {
+  color: #666;
+  text-align: justify;
+}

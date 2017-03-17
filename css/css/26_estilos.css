@@ -1,0 +1,17 @@
+body {
+  background-image: url(../imgs/fondo1.png);
+}
+
+body div {
+  display: inline-block;
+  height: 350px;
+  width: 49.5%;
+}
+
+body div.fondo1 {
+  background-image: url(../imgs/fondo2.png);
+}
+
+body div.fondo2 {
+  background-image: url(../imgs/fondo3.png);
+}

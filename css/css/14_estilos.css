@@ -1,0 +1,88 @@
+section {
+  margin: 0px auto;
+  text-align: center;
+  width: 500px;
+}
+
+section div {
+  display: inline-block;
+  vertical-align: top;
+  font: 16px Arial;
+  height: 100px;
+  line-height: 6em;
+  margin-left: -4px;
+  text-align: center;
+  width: 100px;
+}
+
+section .txtwhite {
+  color: #ffffff;
+}
+
+section .maroon {
+  background-color: #800000;
+}
+
+section .red {
+  background-color: #ff0000;
+}
+
+section .orange {
+  background-color: #ffa500;
+}
+
+section .yellow {
+  background-color: #ffff00;
+}
+
+section .olive {
+  background-color: #808000;
+}
+
+section .purple {
+  background-color: #800080;
+}
+
+section .fuchsia {
+  background-color: #ff00ff;
+}
+
+section .white {
+  background-color: #ffffff;
+}
+
+section .lime {
+  background-color: #00ff00;
+}
+
+section .green {
+  background-color: #008000;
+}
+
+section .navy {
+  background-color: #000080;
+}
+
+section .blue {
+  background-color: #0000ff;
+}
+
+section .aqua {
+  background-color: #00ffff;
+}
+
+section .teal {
+  background-color: #008080;
+}
+
+section .black {
+  background-color: #000000;
+}
+
+section .silver {
+  background-color: #c0c0c0;
+}
+
+section .gray {
+  background-color: #808080;
+}

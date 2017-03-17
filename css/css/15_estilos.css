@@ -1,0 +1,88 @@
+section {
+  margin: 0px auto;
+  text-align: center;
+  width: 500px;
+}
+
+section div {
+  display: inline-block;
+  vertical-align: top;
+  font: 10px Arial;
+  height: 100px;
+  line-height: 10em;
+  margin-left: -4px;
+  text-align: center;
+  width: 100px;
+}
+
+section .txtwhite {
+  color: white;
+}
+
+section .maroon {
+  background-color: maroon;
+}
+
+section .red {
+  background-color: red;
+}
+
+section .orange {
+  background-color: #ffa600;
+}
+
+section .yellow {
+  background-color: yellow;
+}
+
+section .olive {
+  background-color: olive;
+}
+
+section .purple {
+  background-color: purple;
+}
+
+section .fuchsia {
+  background-color: magenta;
+}
+
+section .white {
+  background-color: white;
+}
+
+section .lime {
+  background-color: lime;
+}
+
+section .green {
+  background-color: green;
+}
+
+section .navy {
+  background-color: navy;
+}
+
+section .blue {
+  background-color: blue;
+}
+
+section .aqua {
+  background-color: cyan;
+}
+
+section .teal {
+  background-color: teal;
+}
+
+section .black {
+  background-color: black;
+}
+
+section .silver {
+  background-color: #bfbfbf;
+}
+
+section .gray {
+  background-color: gray;
+}
