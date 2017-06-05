@@ -1,0 +1,15 @@
+body {
+  font: 16px Tahoma; }
+  body article {
+    border: 1px solid #ccc;
+    display: inline-block;
+    height: 240px;
+    padding: 10px;
+    vertical-align: top;
+    width: 200px; }
+  body article.tab1 {
+    text-indent: 0em; }
+  body article.tab2 {
+    text-indent: 1em; }
+  body article.tab3 {
+    text-indent: 2em; }

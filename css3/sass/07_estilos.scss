@@ -1,0 +1,26 @@
+body {
+	background-color: peru;
+	font: 16px Arial;
+	h1, h2 {
+		text-align: center;
+	}
+	section {
+		background-color: white;
+		background-image: url(../imgs/desert.jpg);
+		background-repeat: no-repeat;
+		border: 100px solid transparent;
+		height: 100px;
+		margin: 100px auto;
+		padding: 100px;
+		width: 450px;
+		&.fondor1 {
+			background-origin: border-box;
+		}
+		&.fondor2 {
+			background-origin: padding-box;
+		}
+		&.fondor3 {
+			background-origin: content-box;
+		}
+	}
+}

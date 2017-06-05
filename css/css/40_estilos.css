@@ -1,0 +1,35 @@
+li.tr1 {
+  font-size: larger; }
+
+li.tr2 {
+  font-size: smaller; }
+
+li.ta1 {
+  font-size: xx-small; }
+
+li.ta2 {
+  font-size: x-small; }
+
+li.ta3 {
+  font-size: small; }
+
+li.ta4 {
+  font-size: medium; }
+
+li.ta5 {
+  font-size: large; }
+
+li.ta6 {
+  font-size: x-large; }
+
+li.ta7 {
+  font-size: xx-large; }
+
+li.m1 {
+  font-size: 16px; }
+
+li.m2 {
+  font-size: 2em; }
+
+li.m3 {
+  font-size: 4ex; }

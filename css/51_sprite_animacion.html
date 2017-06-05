@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Animación (Sprite)</title>
+	<link rel="stylesheet" href="css/51_estilos.css">
+</head>
+<body>
+	<h1>Animación (Sprite)</h1>
+	<hr>
+	<section id="sprite" class="anim1"></section>
+	<script>
+		var sp  = document.getElementById('sprite');
+		var nfg = 6; // Número Fotogramas
+		var fg  = 1; // Fotograma Inicial
+		setInterval(function(){
+			sp.className = '';
+			sp.classList.add('anim'+fg);
+			if(fg == nfg) {
+				fg = 1;
+			}
+			else {
+				fg++;
+			}
+		},80);
+	</script>
+</body>
+</html>

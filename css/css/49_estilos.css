@@ -1,0 +1,24 @@
+body {
+  font: 16px Arial;
+}
+body ol.decimal {
+  list-style-type: decimal;
+}
+body ol.romano {
+  list-style-type: upper-roman;
+}
+body ol.griego {
+  list-style-type: lower-greek;
+}
+body ul.disco {
+  list-style-type: disc;
+}
+body ul.circulo {
+  list-style-type: circle;
+}
+body ul.cuadrado {
+  list-style-type: square;
+}
+body ul.imagenes {
+  list-style-image: url(../imgs/vineta.png);
+}

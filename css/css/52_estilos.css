@@ -1,0 +1,142 @@
+body {
+  background-color: #309e48;
+  font-family: Arial;
+  margin: 0px;
+}
+body header {
+  background-color: #fff;
+  border-bottom: 4px solid #309e48;
+  height: 166px;
+  padding: 10px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 9;
+}
+body header figure.logo {
+  background: url(../imgs/spriteweb.png) no-repeat -10px -10px;
+  height: 166px;
+  margin: 0px 0px 0px 130px;
+  transform: scale(0.8);
+  width: 226px;
+}
+body header nav.menu {
+  list-style: none;
+  margin: -100px 0px 0px 440px;
+  width: 540px;
+}
+body header nav.menu li {
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #2f9b47;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 20px;
+  color: #2f9b47;
+  font-size: 1.2em;
+  padding: 4px;
+  text-align: center;
+  width: 80px;
+}
+body header nav.menu li:hover {
+  border-top: 2px solid #2f9b47;
+  border-bottom: 2px solid #fad000;
+}
+body section.content nav.slider {
+  margin: 220px auto 0px auto;
+  width: 940px;
+}
+body section.content nav.slider li {
+  background-color: #fff;
+  display: inline-block;
+  height: 210px;
+  width: 310px;
+}
+body section.content nav.slider li figure {
+  background: url(../imgs/spriteweb.png) no-repeat;
+  height: 202px;
+  margin: 4px auto;
+  position: relative;
+  width: 300px;
+}
+body section.content nav.slider li figure figcaption {
+  background-color: rgba(0, 0, 0, 0.6);
+  bottom: 0px;
+  color: #fff;
+  padding: 20px;
+  position: absolute;
+  width: 260px;
+}
+body section.content nav.slider li figure.slide1, body section.content nav.slider li figure.slide3 {
+  background-position: -494px -4px;
+}
+body section.content nav.slider li figure.slide2 {
+  background-position: -494px -214px;
+}
+body section.content article {
+  background-color: #fff;
+  color: #777;
+  margin: 10px auto;
+  padding: 20px;
+  width: 900px;
+}
+body section.content article h2 {
+  color: #2f9b47;
+  font-size: 1.4em;
+}
+body section.content article figure {
+  background: url(../imgs/spriteweb.png) no-repeat -520px -420px;
+  float: left;
+  height: 200px;
+  width: 220px;
+}
+body section.content nav.collections {
+  margin: 10px auto;
+  width: 940px;
+}
+body section.content nav.collections li {
+  background-color: #fff;
+  display: inline-block;
+  height: 210px;
+  margin-right: 28px;
+  width: 210px;
+}
+body section.content nav.collections li figure {
+  background: url(../imgs/spriteweb.png) no-repeat;
+  height: 222px;
+  margin: 4px auto;
+  position: relative;
+  width: 210px;
+}
+body section.content nav.collections li figure figcaption {
+  background-color: #247736;
+  top: -4px;
+  color: #fad000;
+  text-decoration: underline;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 190px;
+}
+body section.content nav.collections li figure.coll1, body section.content nav.collections li figure.coll3 {
+  background-position: -30px -160px;
+}
+body section.content nav.collections li figure.coll2, body section.content nav.collections li figure.coll4 {
+  background-position: -240px 14px;
+}
+body section.content nav.collections li:last-child {
+  margin-right: 0px;
+}
+body footer div.logofooter {
+  background: url(../imgs/spriteweb.png) no-repeat -10px -400px;
+  height: 182px;
+  margin: 0px auto;
+  top: 50px;
+  transform: scale(0.6);
+  width: 192px;
+}
+body footer p {
+  color: #fff;
+  margin-top: -20px;
+  text-align: center;
+}

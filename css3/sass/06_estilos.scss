@@ -1,0 +1,39 @@
+body {
+	background-color: crimson;
+	font: 16px Arial;
+	h1 {
+		color: white;
+	}
+	h2 {
+		color: crimson;
+	}
+	h1, h2 {
+		text-align: center;
+	}
+	section {
+		background-color: white;
+		background-image: url(../imgs/baltra.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 350px;
+		padding: 20px;
+		margin: 10px auto;
+		width: 300px;
+
+		&.fondot1 {
+		background-size: auto;
+		}
+		&.fondot2 {
+			background-size: 120px;
+		}
+		&.fondot3 {
+			background-size: 300%;
+		}
+		&.fondot4 {
+			background-size: cover;
+		}
+		&.fondot5 {
+			background-size: contain;
+		}
+	}
+}

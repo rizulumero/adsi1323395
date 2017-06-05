@@ -1,0 +1,29 @@
+body {
+  color: #555;
+  font: 16px Arial;
+}
+body section {
+  background-color: #eee;
+  border: 4px solid #ccc;
+  height: 250px;
+  margin: 10px auto;
+  width: 800px;
+}
+body section h2 {
+  text-align: center;
+}
+body section.cursor1 {
+  cursor: crosshair;
+}
+body section.cursor2 {
+  cursor: help;
+}
+body section.cursor3 {
+  cursor: move;
+}
+body section.cursor4 {
+  cursor: wait;
+}
+body section.cursor5 {
+  cursor: url(../imgs/cursor.gif), default;
+}

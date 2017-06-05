@@ -1,0 +1,14 @@
+body {
+  font: 16px Arial; }
+  body article {
+    background-color: #ddd;
+    border: 2px dotted #999;
+    margin: 20px auto;
+    padding: 20px;
+    width: 500px; }
+    body article img {
+      float: left; }
+    body article p {
+      text-align: justify; }
+    body article p.limpiar {
+      clear: left; }

@@ -1,0 +1,16 @@
+body {
+  font: 16px Arial; }
+  body p.decor1 {
+    text-decoration: underline; }
+  body p.decor2 {
+    text-decoration: overline; }
+  body p.decor3 {
+    text-decoration: line-through; }
+  body p.decor4 {
+    text-decoration: blink; }
+  body p.trans1 {
+    text-transform: uppercase; }
+  body p.trans2 {
+    text-transform: lowercase; }
+  body p.trans3 {
+    text-transform: capitalize; }

@@ -1,0 +1,18 @@
+body {
+  font: 16px Arial;
+}
+body article {
+  border: 1px solid silver;
+  display: inline-block;
+  padding: 4px;
+  margin-right: 200px;
+  vertical-align: top;
+  width: 200px;
+}
+body article p {
+  font-size: 4em;
+  word-wrap: normal;
+}
+body article.rpalabra2 p {
+  word-wrap: break-word;
+}

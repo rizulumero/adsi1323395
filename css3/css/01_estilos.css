@@ -1,0 +1,146 @@
+:root {
+  background: -webkit-linear-gradient(left, #fff, #3a7f49);
+}
+
+body {
+  font: 16px Arial;
+}
+body section {
+  background-color: #eee;
+  border: 1px solid #999;
+  padding: 10px;
+  margin: 10px auto;
+  width: 800px;
+}
+body section.ejemplo1 p ~ ul {
+  background-color: #89c997;
+  border: 2px solid #3a7f49;
+  color: #2a5c35;
+  padding: 4px;
+}
+body section.ejemplo2 a[href^="https"] {
+  background-color: #89c997;
+  border: 2px solid #3a7f49;
+  color: #2a5c35;
+  padding: 4px;
+}
+body section.ejemplo3 a[href$=".pdf"] {
+  background-color: #89c997;
+  border: 2px solid #3a7f49;
+  color: #2a5c35;
+  padding: 4px;
+}
+body section.ejemplo4 a[href*="google"] {
+  background-color: #89c997;
+  border: 2px solid #3a7f49;
+  color: #2a5c35;
+  padding: 4px;
+}
+body section.ejemplo5 p:first-of-type {
+  background-color: #89c997;
+  border: 2px solid #3a7f49;
+  color: #2a5c35;
+  padding: 4px;
+}
+body section.ejemplo6 p:last-of-type {
+  background-color: #89c997;
+  border: 2px solid #3a7f49;
+  color: #2a5c35;
+  padding: 4px;
+}
+body section.ejemplo7 p:only-of-type {
+  background-color: #89c997;
+  border: 2px solid #3a7f49;
+  color: #2a5c35;
+  padding: 4px;
+}
+body section.ejemplo8 p:only-child {
+  background-color: #89c997;
+  border: 2px solid #3a7f49;
+  color: #2a5c35;
+  padding: 4px;
+}
+body section.ejemplo9 p:nth-child(2) {
+  background-color: #89c997;
+  border: 2px solid #3a7f49;
+  color: #2a5c35;
+  padding: 4px;
+}
+body section.ejemplo10 p:nth-last-child(2) {
+  background-color: #89c997;
+  border: 2px solid #3a7f49;
+  color: #2a5c35;
+  padding: 4px;
+}
+body section.ejemplo11 li:nth-of-type(3) {
+  background-color: #89c997;
+  border: 2px solid #3a7f49;
+  color: #2a5c35;
+  padding: 4px;
+}
+body section.ejemplo12 li:nth-last-of-type(3) {
+  background-color: #89c997;
+  border: 2px solid #3a7f49;
+  color: #2a5c35;
+  padding: 4px;
+}
+body section.ejemplo13 li:last-child {
+  background-color: #89c997;
+  border: 2px solid #3a7f49;
+  color: #2a5c35;
+  padding: 4px;
+}
+body section.ejemplo14 p:empty {
+  background-color: #89c997;
+  border: 2px solid #3a7f49;
+  color: #2a5c35;
+  padding: 4px;
+}
+body section.ejemplo15 #enlace1:target,
+body section.ejemplo15 #enlace2:target,
+body section.ejemplo15 #enlace3:target {
+  background-color: #89c997;
+  border: 2px solid #3a7f49;
+  color: #2a5c35;
+  padding: 4px;
+}
+body section.ejemplo16 input:enabled {
+  background-color: #89c997;
+  border: 2px solid #3a7f49;
+  color: #2a5c35;
+  padding: 4px;
+}
+body section.ejemplo17 input:disabled {
+  background-color: #89c997;
+  border: 2px solid #3a7f49;
+  color: #2a5c35;
+  padding: 4px;
+}
+body section.ejemplo18 input {
+  background-color: #a00;
+  -webkit-appearance: none;
+  padding: 6px;
+}
+body section.ejemplo18 input:checked {
+  background-color: #89c997;
+  border: 2px solid #3a7f49;
+  color: #2a5c35;
+  padding: 4px;
+}
+body section.ejemplo19 article :not(p) {
+  background-color: #89c997;
+  border: 2px solid #3a7f49;
+  color: #2a5c35;
+  padding: 4px;
+}
+body section.ejemplo20 p.amarillo::selection {
+  background-color: yellow;
+}
+body section.ejemplo20 p.azul::selection {
+  background-color: blue;
+  color: white;
+}
+body section.ejemplo20 p.rojo::selection {
+  background-color: red;
+  color: white;
+}

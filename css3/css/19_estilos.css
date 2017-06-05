@@ -1,0 +1,12 @@
+body {
+  background-color: #ddd;
+  color: #666;
+  font: 16px Arial;
+}
+
+article p {
+  column-count: 4;
+  column-gap: 40px;
+  column-rule: 2px dotted crimson;
+  text-align: justify;
+}

@@ -1,0 +1,85 @@
+body {
+  font: 16px Verdana;
+}
+body nav ul.menu {
+  list-style: none;
+  padding: 0px;
+}
+body nav ul.menu li {
+  margin: 2px auto;
+  width: 400px;
+}
+body nav ul.menu li a:link, body nav ul.menu li a:visited {
+  background-color: #b24083;
+  color: #fff;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+body nav ul.menu li a:link:hover, body nav ul.menu li a:visited:hover {
+  color: #ffea97;
+  background-color: #712853;
+}
+body nav ul.menu li a:link:active, body nav ul.menu li a:visited:active {
+  color: #92e661;
+  background-color: #5d923d;
+}
+body form {
+  border: 1px solid #b24083;
+  margin: 10px auto;
+  padding: 10px;
+  width: 380px;
+}
+body form input {
+  border: 1px solid #b24083;
+  padding: 10px;
+  outline: none;
+  width: 95%;
+}
+body form input:focus {
+  color: #fff;
+  background-color: #b24083;
+}
+body article {
+  margin: 10px auto;
+  padding: 10px;
+  width: 380px;
+}
+body article p {
+  padding: 8px;
+}
+body article p:first-line {
+  color: #c82248;
+}
+body article p:first-letter {
+  font-size: 4em;
+}
+body article p:first-child {
+  background-color: #fff9a9;
+}
+body article p:lang(it) {
+  background-color: #bdffb3;
+}
+body div.logo {
+  background-color: #5c73b5;
+  position: relative;
+  height: 100px;
+  margin: 10px auto;
+  width: 100px;
+}
+body div.logo:before, body div.logo:after {
+  content: "";
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+body div.logo:before {
+  background-color: #40517f;
+  top: 10px;
+  left: 10px;
+}
+body div.logo:after {
+  background-color: #2d395a;
+  top: 40px;
+  left: 40px;
+}

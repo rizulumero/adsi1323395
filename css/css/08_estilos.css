@@ -1,22 +1,19 @@
 body {
-  font-size: 16px;
-}
+  font-size: 16px; }
 
 article {
-  border: 1px solid gray;
-}
+  border: 1px solid gray; }
 
 article.art1 {
   font-size: 1.5em;
-  width: 400px;
-}
+  width: 400px; }
 
 article.art2 {
   font-size: 2em;
-  width: 600px;
-}
+  width: 600px; }
 
 article.art3 {
   font-size: 4ex;
-  width: 800px;
-}
+  width: 800px; }
+
+/*# sourceMappingURL=08_estilos.css.map */

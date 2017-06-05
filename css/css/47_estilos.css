@@ -1,0 +1,16 @@
+body {
+  font: 16px Tahoma; }
+  body article {
+    border: 1px solid #ccc;
+    display: inline-block;
+    vertical-align: top;
+    padding: 4px;
+    width: 300px; }
+  body article.letra1 {
+    letter-spacing: 0em; }
+  body article.letra2 {
+    letter-spacing: 1em; }
+  body article.palabra1 {
+    word-spacing: 0em; }
+  body article.palabra2 {
+    word-spacing: 1em; }

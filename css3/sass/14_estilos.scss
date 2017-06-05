@@ -1,0 +1,45 @@
+@font-face {
+	font-family: 'Transformers';
+	src: url('fonts/TransformersMovie.eot');
+	src: url('fonts/TransformersMovie.eot?#iefix') format('embedded-opentype'),
+		url('fonts/TransformersMovie.woff') format('woff'),
+		url('fonts/TransformersMovie.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('fonts/Roboto-Thin.eot');
+	src: url('fonts/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Roboto-Thin.woff') format('woff'),
+		url('fonts/Roboto-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+body {
+	background-color: #457ca1;
+	color: #fff;
+	font: 16px Arial;
+	article {
+		background-color: #35617f;
+		font-family: 'Transformers';
+		margin: 40px auto;
+		padding: 20px;
+		width: 400px;
+		h2 {
+			color: #e0e2ba;
+			text-align: center;
+			font-size: 3.4em;
+			letter-spacing: 2px;
+		}
+		p {
+			font-family: 'Roboto';
+			line-height: 1.8em;
+			font-weight: 100;
+			text-align: justify;
+		}
+	}
+}
+

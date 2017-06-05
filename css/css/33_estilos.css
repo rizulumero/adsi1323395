@@ -1,0 +1,15 @@
+section {
+  border: 1px solid gray;
+  height: 360px;
+  padding: 10px;
+  width: 400px; }
+  section div {
+    border: 1px solid silver;
+    height: 100px;
+    line-height: 6em;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 200px; }
+
+section.flotante div.caja1 {
+  float: right; }

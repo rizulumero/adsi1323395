@@ -1,0 +1,30 @@
+body {
+  background-color: tomato;
+  font: 16px Arial;
+}
+body h1, body h2 {
+  color: white;
+  text-align: center;
+}
+body h2 {
+  color: tomato;
+}
+body section {
+  background-color: white;
+  background-image: url(../imgs/desert.jpg);
+  background-repeat: no-repeat;
+  border: 100px solid transparent;
+  height: 100px;
+  margin: 100px auto;
+  padding: 100px;
+  width: 450px;
+}
+body section.fondoc1 {
+  background-clip: border-box;
+}
+body section.fondoc2 {
+  background-clip: padding-box;
+}
+body section.fondoc3 {
+  background-clip: content-box;
+}

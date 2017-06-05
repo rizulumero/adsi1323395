@@ -1,0 +1,17 @@
+body {
+  font: 16px Tahoma; }
+  body article {
+    border: 1px solid #ccc;
+    display: inline-block;
+    height: 260px;
+    padding: 4px;
+    vertical-align: top;
+    width: 200px; }
+  body article.izquierda {
+    text-align: left; }
+  body article.derecha {
+    text-align: right; }
+  body article.centro {
+    text-align: center; }
+  body article.justificado {
+    text-align: justify; }

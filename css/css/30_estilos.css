@@ -1,0 +1,14 @@
+section {
+  border: 1px solid gray;
+  padding: 4px;
+  width: 400px; }
+  section div.bloque {
+    border: 1px solid silver;
+    color: silver;
+    padding: 20px;
+    margin: 4px; }
+    section div.bloque a {
+      border: 1px solid silver;
+      padding: 20px; }
+  section div.punteado {
+    border-style: dashed; }

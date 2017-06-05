@@ -1,0 +1,136 @@
+// Variables
+$color-selector: #3a7f49;
+@mixin style-selected {
+	background-color: lighten($color-selector, 30%);
+	border: 2px solid $color-selector;
+	color: darken($color-selector, 10%);
+	padding: 4px;
+}
+:root {
+	background: -webkit-linear-gradient(left, #fff, #3a7f49);
+}
+body {
+	font: 16px Arial;
+	section {
+		background-color: #eee;
+		border: 1px solid #999;
+		padding: 10px;
+		margin: 10px auto;
+		width: 800px;
+	}
+	section.ejemplo1 {
+		p~ul {
+			@include style-selected;
+		}
+	}
+	section.ejemplo2 {
+		a[href^="https"] {
+			@include style-selected;
+		}
+	}
+	section.ejemplo3 {
+		a[href$=".pdf"] {
+			@include style-selected;
+		}
+	}
+	section.ejemplo4 {
+		a[href*="google"] {
+			@include style-selected;
+		}
+	}
+	section.ejemplo5 {
+		p:first-of-type{
+			@include style-selected;
+		}
+	}
+	section.ejemplo6 {
+		p:last-of-type{
+			@include style-selected;
+		}
+	}
+	section.ejemplo7 {
+		p:only-of-type{
+			@include style-selected;
+		}
+	}
+	section.ejemplo8 {
+		p:only-child{
+			@include style-selected;
+		}
+	}
+	section.ejemplo9 {
+		p:nth-child(2){
+			@include style-selected;
+		}
+	}
+	section.ejemplo10 {
+		p:nth-last-child(2){
+			@include style-selected;
+		}
+	}
+	section.ejemplo11 {
+		li:nth-of-type(3){
+			@include style-selected;
+		}
+	}
+	section.ejemplo12 {
+		li:nth-last-of-type(3){
+			@include style-selected;
+		}
+	}
+	section.ejemplo13 {
+		li:last-child{
+			@include style-selected;
+		}
+	}
+	section.ejemplo14 {
+		p:empty{
+			@include style-selected;
+		}
+	}
+	section.ejemplo15 {
+		#enlace1:target,
+		#enlace2:target,
+		#enlace3:target {
+			@include style-selected;
+		}
+	}
+	section.ejemplo16 {
+		input:enabled{
+			@include style-selected;
+		}
+	}
+	section.ejemplo17 {
+		input:disabled{
+			@include style-selected;
+		}
+	}
+	section.ejemplo18 {
+		input {
+			background-color: #a00;
+			-webkit-appearance: none;
+			padding: 6px;
+		}
+		input:checked{
+			@include style-selected;
+		}
+	}
+	section.ejemplo19 {
+		article :not(p){
+			@include style-selected;
+		}
+	}
+	section.ejemplo20 {
+		p.amarillo::selection{
+			background-color: yellow;
+		}
+		p.azul::selection{
+			background-color: blue;
+			color: white;
+		}
+		p.rojo::selection{
+			background-color: red;
+			color: white;
+		}
+	}
+}

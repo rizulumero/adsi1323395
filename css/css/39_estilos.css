@@ -1,0 +1,18 @@
+h2:first-of-type {
+  font-family: sans-serif; }
+
+h2:last-of-type {
+  font-family: serif; }
+
+ul li.ss1 {
+  font-family: Verdana; }
+ul li.ss2 {
+  font-family: Arial; }
+ul li.ss3 {
+  font-family: Helvetica; }
+ul li.s1 {
+  font-family: Georgia; }
+ul li.s2 {
+  font-family: "Times New Roman"; }
+ul li.s3 {
+  font-family: Courier; }

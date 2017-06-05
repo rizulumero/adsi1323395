@@ -1,0 +1,19 @@
+body {
+  background-color: #5b5ea7;
+}
+body article {
+  background-color: #44487f;
+  font-family: 'Gloria Hallelujah';
+  color: #fff;
+  line-height: 2.4em;
+  margin: 40px auto;
+  text-align: justify;
+  padding: 20px;
+  width: 600px;
+}
+body article h1 {
+  background-color: #393c6b;
+  margin: 0px;
+  padding: 20px;
+  text-transform: uppercase;
+}

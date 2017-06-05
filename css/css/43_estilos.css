@@ -1,0 +1,15 @@
+body {
+  font: 16px Tahoma; }
+  body article {
+    border: 1px solid #ccc;
+    display: inline-block;
+    height: 380px;
+    padding: 4px;
+    vertical-align: top;
+    width: 280px; }
+  body article.inter1 {
+    line-height: 1em; }
+  body article.inter2 {
+    line-height: 2em; }
+  body article.inter3 {
+    line-height: 3em; }

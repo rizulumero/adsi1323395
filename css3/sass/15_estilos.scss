@@ -1,0 +1,26 @@
+body {
+	font: 16px Arial;
+	section {
+		background-color: #bb3564;
+		height: 120px;
+		margin: 40px auto;
+		width: 260px;
+		h2 {
+			color: #fff;
+			line-height: 5em;
+			text-align: center;
+		}
+		&.trans1 {
+			transform: translate(200px);
+		}
+		&.trans2 {
+			transform: rotate(10deg);
+		}
+		&.trans3 {
+			transform: scale(0.4);
+		}
+		&.trans4 {
+			transform: skew(20deg);
+		}
+	}
+}

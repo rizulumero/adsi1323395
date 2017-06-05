@@ -1,0 +1,14 @@
+body {
+  font: 16px Arial; }
+  body section {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 4px;
+    height: 160px; }
+  body section.al1 {
+    vertical-align: baseline; }
+  body section.al2 {
+    vertical-align: top; }
+  body section.al3 {
+    vertical-align: top;
+    line-height: 8em; }

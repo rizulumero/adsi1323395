@@ -1,0 +1,23 @@
+body {
+  font: 16px Arial; }
+  body main {
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 20px auto;
+    width: 580px; }
+    body main section {
+      border: 1px solid gray;
+      height: 200px;
+      display: inline-block;
+      padding: 4px;
+      vertical-align: top;
+      width: 180px; }
+      body main section h2 {
+        background-color: silver;
+        font-size: 1.4em; }
+    body main section.sec1 {
+      overflow: visible; }
+    body main section.sec2 {
+      overflow: hidden; }
+    body main section.sec3 {
+      overflow: scroll; }

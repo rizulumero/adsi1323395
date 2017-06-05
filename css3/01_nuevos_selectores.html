@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Nuevos Selectores</title>
+	<link rel="stylesheet" href="css/01_estilos.css">
+</head>
+<body>
+	<h1>Nuevos Selectores</h1>
+	<hr>
+	<!-- Selector p~ul -->
+	<section class="ejemplo1">
+		<h2>p~ul</h2>
+		<p>
+			<ul>
+				<li>Html</li>
+				<li>Css</li>
+				<li>javaScript</li>
+			</ul>
+		</p>
+		<ul>
+			<li>Ruby</li>
+			<li>Python</li>
+			<li>C#</li>
+		</ul>
+	</section>
+	<!-- Selector a[href^="https"] -->
+	<section class="ejemplo2">
+		<h2>a[href^="https"]</h2>
+		<nav>
+			<li><a href="http://www.google.com">Google</a></li>
+			<li><a href="https://www.yahoo.com">Yahoo</a></li>
+			<li><a href="http://www.youtube.com">Youtube</a></li>
+		</nav>
+	</section>
+	<!-- Selector a[href$=".pdf"] -->
+	<section class="ejemplo3">
+		<h2>a[href$=".pdf"]</h2>
+		<nav>
+			<li><a href="presentacion.pptx">Presentación PowerPoint</a></li>
+			<li><a href="documento.docx">Documento de Texto</a></li>
+			<li><a href="diagrama.pdf">Diagrama en PDF</a></li>
+		</nav>
+	</section>
+	<!-- Selector a[href*="google"] -->
+	<section class="ejemplo4">
+		<h2>a[href*="google"]</h2>
+		<nav>
+			<li><a href="http://www.google.com">Google</a></li>
+			<li><a href="http://www.yahoo.com">Yahoo</a></li>
+			<li><a href="http://www.youtube.com">Youtube</a></li>
+		</nav>
+	</section>
+	<!-- Selector p:first-of-type -->
+	<section class="ejemplo5">
+		<h2>p:first-of-type</h2>
+		<article>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+		</article>
+	</section>
+	<!-- Selector p:last-of-type -->
+	<section class="ejemplo6">
+		<h2>p:last-of-type</h2>
+		<article>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+		</article>
+	</section>
+	<!-- Selector p:only-of-type -->
+	<section class="ejemplo7">
+		<h2>p:only-of-type</h2>
+		<article>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+		</article>
+		<hr>
+		<article>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+		</article>
+	</section>
+	<!-- Selector p:only-child -->
+	<section class="ejemplo8">
+		<h2>p:only-child</h2>
+		<article>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+		</article>
+		<hr>
+		<article>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+		</article>
+	</section>
+	<!-- Selector p:nth-child(2) -->
+	<section class="ejemplo9">
+		<h2>p:nth-child(2)</h2>
+		<article>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+		</article>
+	</section>
+	<!-- Selector p:nth-last-child(2) -->
+	<section class="ejemplo10">
+		<h2>p:nth-last-child(2)</h2>
+		<article>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+		</article>
+	</section>
+	<!-- Selector li:nth-of-type(3) -->
+	<section class="ejemplo11">
+		<h2>li:nth-of-type(3)</h2>
+		<ul>
+			<li>Lorem 1</li>
+			<li>Lorem 2</li>
+			<li>Lorem 3</li>
+			<li>Lorem 4</li>
+		</ul>
+	</section>
+	<!-- Selector li:nth-last-of-type(3) -->
+	<section class="ejemplo12">
+		<h2>li:nth-last-of-type(3)</h2>
+		<ul>
+			<li>Lorem 1</li>
+			<li>Lorem 2</li>
+			<li>Lorem 3</li>
+			<li>Lorem 4</li>
+		</ul>
+	</section>
+	<!-- Selector li:last-child -->
+	<section class="ejemplo13">
+		<h2>li:last-child</h2>
+		<ul>
+			<li>Lorem 1</li>
+			<li>Lorem 2</li>
+			<li>Lorem 3</li>
+			<li>Lorem 4</li>
+			<li>Lorem 5</li>
+		</ul>
+	</section>
+	<!-- Selector :root -->
+	<section class="ejemplo13">
+		<h2>:root</h2>
+		<p>Ver el fondo del documento</p>
+	</section>
+	<!-- Selector p:empty -->
+	<section class="ejemplo14">
+		<h2>p:empty</h2>
+		<article>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+			<p></p>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+		</article>
+	</section>
+	<!-- Selector #enlace:target -->
+	<section class="ejemplo15">
+		<h2>#enlace:target</h2>
+		<nav>
+			<a href="#enlace1">Lorem 1</a> |
+			<a href="#enlace2">Lorem 2</a> |
+			<a href="#enlace3">Lorem 3</a>
+		</nav>
+		<ul>
+			<li id="enlace1">Lorem 1</li>
+			<li id="enlace2">Lorem 2</li>
+			<li id="enlace3">Lorem 3</li>
+		</ul>
+	</section>
+	<!-- Selector input:enabled -->
+	<section class="ejemplo16">
+		<h2>input:enabled</h2>
+		<form action="">
+			<div><input type="text" disabled></div>
+			<div><input type="text"></div>
+			<div><input type="text" disabled></div>
+		</form>
+	</section>
+	<!-- Selector input:disabled -->
+	<section class="ejemplo17">
+		<h2>input:disabled</h2>
+		<form action="">
+			<div><input type="text" disabled></div>
+			<div><input type="text"></div>
+			<div><input type="text" disabled></div>
+		</form>
+	</section>
+	<!-- Selector input:checked -->
+	<section class="ejemplo18">
+		<h2>input:checked</h2>
+		<form action="">
+			<div><label><input type="checkbox"> Amarillo</label></div>
+			<div><label><input type="checkbox" checked> Azul</label></div>
+			<div><label><input type="checkbox"> Rojo</label></div>
+		</form>
+	</section>
+	<!-- Selector :not(p) -->
+	<section class="ejemplo19">
+		<h2>:not(p)</h2>
+		<article>
+			<div>Lorem Ipsum Dolor Sit Amet</div>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+			<div>Lorem Ipsum Dolor Sit Amet</div>
+			<p>Lorem Ipsum Dolor Sit Amet</p>
+		</article>
+	</section>
+	<!-- Selector :not(p) -->
+	<section class="ejemplo20">
+		<h2>::selection</h2>
+		<article>
+			<p class="amarillo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, nobis provident libero, veritatis autem voluptatem harum tempore aperiam eum in nesciunt.</p>
+			<p class="azul">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, nobis provident libero, veritatis autem voluptatem harum tempore aperiam eum in nesciunt.</p>
+			<p class="rojo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, nobis provident libero, veritatis autem voluptatem harum tempore aperiam eum in nesciunt.</p>
+		</article>
+	</section>
+</body>
+</html>

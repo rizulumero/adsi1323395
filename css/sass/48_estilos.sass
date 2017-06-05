@@ -1,0 +1,67 @@
+body
+	font: 16px Verdana
+	nav
+		ul.menu
+			list-style: none
+			padding: 0px
+			li
+				margin: 2px auto
+				width: 400px
+				a:link, a:visited
+					background-color: #b24083
+					color: #fff
+					display: block
+					padding: 10px
+					text-decoration: none
+					&:hover
+						color: #ffea97
+						background-color: #712853
+					&:active
+						color: #92e661
+						background-color: #5d923d
+	form
+		border: 1px solid #b24083
+		margin: 10px auto
+		padding: 10px
+		width: 380px
+		input
+			border: 1px solid #b24083
+			padding: 10px
+			outline: none
+			width: 95%
+			&:focus
+				color: #fff
+				background-color: #b24083
+	article
+		margin: 10px auto
+		padding: 10px
+		width: 380px
+		p
+			padding:  8px
+			&:first-line
+				color: #c82248
+			&:first-letter
+				font-size: 4em
+			&:first-child
+				background-color: #fff9a9
+			&:lang(it)
+				background-color: #bdffb3
+	div.logo
+		background-color: #5c73b5
+		position: relative
+		height: 100px
+		margin: 10px auto
+		width: 100px
+		&:before, &:after
+			content: ''
+			height: 50px
+			position: absolute
+			width: 50px
+		&:before
+			background-color: #40517f
+			top: 10px
+			left: 10px
+		&:after
+			background-color: #2d395a
+			top: 40px
+			left: 40px

@@ -1,0 +1,21 @@
+section {
+  border: 1px solid gray;
+  height: 310px;
+  padding: 10px;
+  width: 600px; }
+  section div {
+    border: 1px solid gray;
+    display: inline-block;
+    height: 150px;
+    line-height: 9em;
+    text-align: center;
+    width: 195px; }
+  section div.caja4 {
+    margin-top: 4px;
+    width: 597px; }
+
+section.relativo div.caja2 {
+  background-color: #fff;
+  left: 60px;
+  position: relative;
+  top: 60px; }
